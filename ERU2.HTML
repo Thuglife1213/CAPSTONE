@@ -7,7 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <title>PRC-QC | Emergency Response Unit</title>
     <style>
-        body { font-family: 'Inter', sans-serif; }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
         .hero-gradient {
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
         }
@@ -30,7 +33,7 @@
 
     <nav class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-200">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            
+
             <div class="flex items-center space-x-5">
                 <img src="RED CROSS EMBLEM.png" alt="PRC" class="h-12 w-auto">
                 <div class="h-8 w-px bg-gray-300"></div>
@@ -113,7 +116,7 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            
+
             <div class="bg-slate-50 border border-gray-200 rounded-xl p-6 flex flex-col justify-between hover:shadow-xl transition-all border-t-4 border-t-blue-600">
                 <div>
                     <div class="text-2xl mb-4">🌊</div>
@@ -164,12 +167,14 @@
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="group bg-white border border-gray-200 p-8 rounded hover:border-red-600 transition-all cursor-pointer">
+            <div onclick="window.location.href='meeting.html'" class="group bg-white border border-gray-200 p-8 rounded hover:border-red-600 transition-all cursor-pointer shadow-sm hover:shadow-md">
                 <span class="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em]">Deployment / March 21, 2026</span>
                 <h4 class="text-xl font-black uppercase mt-2 group-hover:text-red-600 transition">1st Quarter General Meeting</h4>
                 <p class="text-gray-500 text-sm mt-4">Mandatory assembly for all QC ERU Volunteers and Staff at the Chapter Headquarters.</p>
+                <div class="mt-6 text-[10px] font-black text-red-600 uppercase tracking-widest group-hover:underline">View Official Notice →</div>
             </div>
-            <div class="group bg-white border border-gray-200 p-8 rounded hover:border-red-600 transition-all cursor-pointer">
+
+            <div class="group bg-white border border-gray-200 p-8 rounded hover:border-red-600 transition-all cursor-pointer shadow-sm hover:shadow-md">
                 <span class="text-[10px] font-black text-gray-400 uppercase tracking-[0.2em]">Training / Summer 2026</span>
                 <h4 class="text-xl font-black uppercase mt-2 group-hover:text-red-600 transition">Future Responders Bootcamp</h4>
                 <p class="text-gray-500 text-sm mt-4">Intensive 4-week certification for new ERU candidates and Youth Leaders.</p>
